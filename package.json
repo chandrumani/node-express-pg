@@ -1,0 +1,26 @@
+{
+  "name": "node-express-pg",
+  "version": "1.0.0",
+  "description": "Node js with express and postgres",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandrumani/node-express-pg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandrumani/node-express-pg/issues"
+  },
+  "homepage": "https://github.com/chandrumani/node-express-pg#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  }
+}
