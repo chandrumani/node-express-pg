@@ -16,6 +16,7 @@ app.get('/', (request, response) =>{
 require("./app/routes/user.routes")(app);
 require("./app/routes/waybill.routes")(app);
 require("./app/routes/upload.routes")(app);
+require("./app/routes/auth.routes")(app);
 
 app.listen(port, () => {
     console.log(`App running on Port ${port}`);

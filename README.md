@@ -48,5 +48,9 @@ Access the API's through Postman. Exposed API's are:
 
 `http://localhost:4500/api/waybill`
 
+`http://localhost:4500/api/upload`
+
+`http://localhost:4500/api/auth`
+
 GET, POST, PUT, DELETE API's are available endpoints
 
