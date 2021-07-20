@@ -38,6 +38,7 @@ postgres-# GRANT ALL PRIVILEGES ON DATABASE pgdb TO pgadm;
 postgres=# ALTER ROLE pgadm WITH PASSWORD '1234';
 ```
 
+## Starting the node
 Clone the repo and Start the node server using `node server.js`
 
 All models will be created as tables in Postgres DB.
@@ -54,3 +55,8 @@ Access the API's through Postman. Exposed API's are:
 
 GET, POST, PUT, DELETE API's are available endpoints
 
+## Build docker image
+
+docker build . -t node-express-pg
+
+docker run -p 4500:4500 -d node-express-pg
